@@ -24,8 +24,12 @@
   color: #757575;
 }
 .secondary-bg {
-  background-color: #FFF8F3;
+  background-color: #e7d0bf;
   background-position: 550px;
+}
+.secondary{
+  background-color: #f1dbcc;
+  background-position: 400px;
 }
 
 /* nav styles */
@@ -93,6 +97,10 @@ main{
   margin: 0px auto;
   
 } 
+main section{
+  margin-top: 130px;
+  margin-bottom:130px ;
+}
 .about{
   border-radius: 15px;
   padding:130px 150px ;
@@ -108,3 +116,17 @@ main{
   display: flex;
   justify-content: space-around;
  }
+ .text-senter{
+  align-items: center;
+ }
+.text-senter{
+  text-align: center;
+} .skills-conteiner{
+  display: flex;
+  gap: 24px;
+}
+.skill{
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow:0px 6px 20px 0px #000000 ;
+}
